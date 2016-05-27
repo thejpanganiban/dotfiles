@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/jesse/Workspace'
+let g:netrw_dirhist_2='/Users/jesse/Workspace/sandbox'
+let g:netrw_dirhist_3='/Users/jesse/Workspace/openresty_sandbox'
+let g:netrw_dirhist_4='/Users/jesse/.vim'
+let g:netrw_dirhist_5='/Users/jesse'
+let g:netrw_dirhist_6='/Users/jesse/Workspace/openresty_sandbox'
