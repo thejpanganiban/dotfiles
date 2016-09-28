@@ -9,7 +9,7 @@
 
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-export PS1='\u@\h:\w$ '
+export PS1='\w # '
 
 alias fig='docker-compose'
 alias machine='docker-machine'
