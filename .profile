@@ -17,5 +17,3 @@ alias machine='docker-machine'
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
-
-eval "$(nodenv init -)"
