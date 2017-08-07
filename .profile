@@ -10,6 +10,7 @@
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export PS1='\w # '
+export EDITOR='vim'
 
 alias fig='docker-compose'
 alias machine='docker-machine'
@@ -17,3 +18,7 @@ alias machine='docker-machine'
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
+
+function lgrep { ls | grep "$1"; }
+export lgrep
+alias lg=lgrep

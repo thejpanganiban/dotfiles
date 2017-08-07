@@ -5,6 +5,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'flazz/vim-colorschemes'
 Plug 'kennethzfeng/vim-raml'
+Plug 'elixir-lang/vim-elixir'
 "
 call plug#end()
 "
@@ -35,6 +36,7 @@ set nowritebackup
 set noswapfile
 "set wiw=100
 "set ea
+set clipboard=unnamed
 ""End Base--------------------------------------
 "
 "NERDTree--------------------------------------
