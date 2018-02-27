@@ -6,6 +6,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'flazz/vim-colorschemes'
 Plug 'kennethzfeng/vim-raml'
 Plug 'elixir-lang/vim-elixir'
+Plug 'miyakogi/seiya.vim'
 "
 call plug#end()
 "
@@ -74,3 +75,8 @@ let mapleader = "\<Space>"
 "
 nnoremap <Leader>n :NERDTreeToggle<CR>
 ""End Key Bindings------------------------------
+
+" Transparency
+hi Normal guibg=NONE ctermbg=NONE
+hi VertSplit ctermbg=NONE ctermfg=NONE
+let g:seiya_auto_enable=1
