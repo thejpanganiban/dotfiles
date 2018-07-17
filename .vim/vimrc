@@ -7,6 +7,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'kennethzfeng/vim-raml'
 Plug 'elixir-lang/vim-elixir'
 Plug 'miyakogi/seiya.vim'
+Plug 'hashivim/vim-terraform'
 "
 call plug#end()
 "
