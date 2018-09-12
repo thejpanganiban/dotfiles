@@ -19,3 +19,5 @@ alias machine='docker-machine'
 function lgrep { ls | grep "$1"; }
 export lgrep
 alias lg=lgrep
+
+export PATH=$PATH:$HOME/.local/bin
