@@ -15,7 +15,7 @@ Setup links the tmux config and helper scripts, backs up existing files before r
 
 Reload an existing tmux with **Ctrl-b r**, then **Ctrl-b I** to install plugins.
 
-- **Ctrl-b k**: fuzzy-search sessions in a popup; Enter switches, Esc cancels.
+- **Ctrl-b k**: fuzzy-search sessions and their tabs (windows) in a popup; Enter switches directly to the selected tab, Esc cancels.
 - **Up/Down** or **Ctrl-j/k**: navigate the picker.
 - **Ctrl-b Up**: move to the pane above.
 - **Ctrl-b Enter**: toggle the `system` session and the previous session (requires a session named `system`).
